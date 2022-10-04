@@ -8,27 +8,37 @@
 \graphicspath{{images/}}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
+\usepackage{varwidth}
+\usepackage{verbatim}
+\usepackage{pdfpages}
 
 
-\title{LaTeX Template}
+\title{Using GPLK to solve Mixed Integer Programming (MIP) Linear Optimization Models}
 
-\author{Mr Ashlin Darius Govindasamy\\ \large{ADGSTUDIOS}}
+\author{Mr Ashlin Darius Govindasamy\\ \large{University of South Africa}}
 
 \date{\today}
-
 
 \begin{document}
 \maketitle
 \newpage
+
+\input{chapters/abstract.tex}
+
 
 \tableofcontents
 
 %for adding page numbers
 \pagenumbering{arabic} 
 
+
 %add more chapters like this
-\chapter{Introduction}
-\input{chapters/introduction.tex}
+\chapter{GPLK Parameters and Flags}
+\input{chapters/gplkpf.tex}
+
+\chapter{Implementation and Examples}
+\input{chapters/implementation.tex}
+
 
 \newpage
 
